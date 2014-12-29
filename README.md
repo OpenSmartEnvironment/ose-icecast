@@ -1,12 +1,12 @@
-# Open Smart Environment Icecast package
+# Open Smart Environment - Icecast
+This package is a part of OSE suite.
+The main advantage of OSE is the easy creation of applications
+consisting of multiple instances working as a single whole. The
+objective is to develop an all-encompassing personal mesh running
+various devices including HTPCs, phones, tablets, workstations,
+servers, Raspberry Pis, home automation gadgets, wearables, drones etc.
 
-This package makes it possible to search for Icecast streams in the
-Icecast directory (http://dir.xiph.org)
-
-It defines the icecast stream [entry kind](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html) and registers it as a
-source to [OSE Media player](http://opensmartenvironment.github.io/doc/modules/media.html).
-
-See [bundle.media](http://opensmartenvironment.github.io/doc/modules/bundle.media.html) example application
+For more information about OSE see **the [documentation](http://opensmartenvironment.github.io/doc/)**.
 
 ## Status
 - Pre-alpha stage (insecure and buggy)
@@ -20,44 +20,27 @@ to understand the basic principles covered by the
 
 Use of this software is currently recommended only for users that
 wish participate in the development process, see
-[Contributions](#contributions).
+[contributions](http://opensmartenvironment.github.io/doc/#contrib).
 
-## Getting started
-To get started with OSE, refer to the [ose-bundle](http://opensmartenvironment.github.io/doc/modules/bundle.html) package and
-[Media player example application](http://opensmartenvironment.github.io/doc/modules/bundle.media.html). You can read the entire OSE
-documentation [here]( http://opensmartenvironment.github.io/doc).
+## Platforms
+OSE is developed in JavaScript on the following platforms.
+- Node.js (>0.10) running on Debian Jessie and Raspbian
+- recent versions of Firefox
+- recent versions of Chromium/Chrome
 
-## Modules
-Open Smart Environment Icecast package consists of the following modules:
-- Icecast stream kind
-- OSE Icecast core
-- OSE Icecast content
+It, however, probably also runs on other recent browsers and Linux
+distributions.
 
-### Icecast stream kind
-[Entry kind](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html) describing Icecast streams.
+## Package description
+This package makes it possible to search for Icecast streams in the
+Icecast directory (http://dir.xiph.org)
 
-Module [Icecast stream kind](http://opensmartenvironment.github.io/doc/classes/icecast.lib.stream.html) reference ... 
+It defines the icecast stream [entry kind] and registers it as a
+source to [Media player].
 
-### OSE Icecast core
-Core singleton of ose-icecast npm package. Registers [entry kinds](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html)
-defined by this package to the `"icecast"` [scope](http://opensmartenvironment.github.io/doc/classes/ose.lib.scope.html).
+See [Media player example].
 
-Module [OSE Icecast core](http://opensmartenvironment.github.io/doc/classes/icecast.lib.html) reference ... 
-
-### OSE Icecast content
-Provides files of OSE Icecast package to the browser.
-
-Module [OSE Icecast content](http://opensmartenvironment.github.io/doc/classes/icecast.content.html) reference ... 
-
-## <a name="contributions"></a>Contributions
-To get started contributing or coding, it is good to read about the
-two main npm packages [ose](http://opensmartenvironment.github.io/doc/modules/ose.html) and [ose-bb](http://opensmartenvironment.github.io/doc/modules/bb.html).
-
-This software is in the pre-alpha stage. At the moment, it is
-premature to file bugs. Input is, however, much welcome in the form
-of ideas, comments and general suggestions.  Feel free to contact
-us via
-[github.com/opensmartenvironment](https://github.com/opensmartenvironment).
+The documentation for "ose-icecast" package can be found **[here](http://opensmartenvironment.github.io/doc/#ose-icecast#)**.
 
 ## Licence
 This software is released under the terms of the [GNU General

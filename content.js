@@ -10,10 +10,10 @@ exports = require('ose')
  */
 
 /**
- * @caption OSE Icecast content
+ * @caption Icecast content
  *
  * @readme
- * Provides files of OSE Icecast package to the browser.
+ * Provides files of [ose-icecast] package to the browser.
  *
  * @class icecast.content
  * @type singleton

@@ -24,7 +24,7 @@
     "radio"
   ],
   "dependencies": {
-    "jsdom": "*"
+    "sax": "^1.1.5"
   },
   "license": "GPL-3.0+"
 }

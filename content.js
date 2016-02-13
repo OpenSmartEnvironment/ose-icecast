@@ -1,7 +1,7 @@
 'use strict';
 
 const O = require('ose')(module)
-  .singleton(init, 'ose/lib/http/content')
+  .singleton('ose/lib/http/content')
 ;
 
 exports = O.init();
@@ -22,11 +22,6 @@ exports = O.init();
  */
 
 // Public {{{1
-function init() {
-  O.inherited(this)();
-
-  this.addModule('lib/radio/browser');
-  this.addModule('lib/radio/index');
-  this.addModule('lib/radio/bb/listItem');
-  this.addModule('lib/index');
-};
+exports.addModule('lib/index');
+exports.addModule('lib/remote');
+exports.addModule('lib/stream');
